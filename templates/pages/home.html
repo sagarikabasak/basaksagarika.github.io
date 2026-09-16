@@ -1,0 +1,53 @@
+<div><section class="home-hero" aria-labelledby="hero-title">
+  <div class="hero-copy">
+    <p class="eyebrow">{{profile:Professional title}}</p>
+    <p class="hero-name">{{profile:Name}}</p>
+    <h1 id="hero-title">{{inline:Page title}}</h1>
+    <p class="hero-deck">{{inline:Introduction}}</p>
+    <p class="hero-affiliation"><span>{{inline:Hero affiliation label}}</span>{{inline:Hero affiliation text}}</p>
+    <div class="hero-actions"><a class="button primary" href="/research/">{{inline:Button text}} <span aria-hidden="true">→</span></a><a class="inline-link inverse" href="/publications/">{{inline:Inline link text}} <span aria-hidden="true">→</span></a></div>
+  </div>
+  <figure class="concept-figure">
+    <svg viewBox="0 0 720 600" role="img" aria-labelledby="concept-title concept-desc">
+      <title id="concept-title">Conceptual map of driven, open, interacting quantum systems</title>
+      <desc id="concept-desc">A time-dependent drive feeds a three-level system coupled to an environment and an interacting one-dimensional lattice.</desc>
+      <defs><linearGradient id="signal" x1="0" x2="1"><stop offset="0" stop-color="#d57555"/><stop offset="1" stop-color="#efb18e"/></linearGradient><linearGradient id="field" x1="0" x2="1"><stop offset="0" stop-color="#7ec7c0" stop-opacity=".15"/><stop offset=".5" stop-color="#7ec7c0"/><stop offset="1" stop-color="#7ec7c0" stop-opacity=".15"/></linearGradient></defs>
+      <g class="figure-grid"><path d="M40 92H680M40 212H680M40 332H680M40 452H680M120 30V550M280 30V550M440 30V550M600 30V550"/></g>
+      <g class="drive-mark"><text x="44" y="64">DRIVE · Ω(t)</text><path d="M48 130C82 78 114 78 148 130S214 182 248 130S314 78 348 130S414 182 448 130"/><path class="arrow" d="M464 130H524l-12-10m12 10-12 10"/></g>
+      <g class="level-system"><text x="526" y="64">SYSTEM</text><line x1="548" y1="104" x2="650" y2="104"/><line x1="548" y1="142" x2="650" y2="142"/><line x1="548" y1="180" x2="650" y2="180"/><path d="M568 175V111l-7 10m7-10 7 10M626 109V173l-7-10m7 10 7-10"/></g>
+      <g class="bath-mark"><text x="44" y="284">ENVIRONMENT · γ</text><path d="M48 316q18-30 36 0t36 0t36 0t36 0t36 0"/><path d="M244 316H300l-12-10m12 10-12 10"/></g>
+      <g class="lattice-mark"><text x="44" y="420">INTERACTING MATTER · J, U, θ</text><path class="interaction" d="M96 486Q280 380 464 486M256 486Q432 590 610 486"/><line x1="64" y1="486" x2="654" y2="486"/><circle cx="96" cy="486" r="13"/><circle cx="198" cy="486" r="13"/><circle cx="304" cy="486" r="13"/><circle cx="412" cy="486" r="13"/><circle cx="516" cy="486" r="13"/><circle cx="620" cy="486" r="13"/></g>
+      <text class="figure-equation" x="346" y="286">ρ̇ = −i[H(t),ρ] + 𝒟[ρ]</text>
+    </svg>
+    <figcaption>{{inline:Concept figure caption}}</figcaption>
+  </figure>
+</section>
+
+<section class="home-research section-wrap" aria-labelledby="home-research-title">
+  <header class="section-header"><div><p class="section-kicker">{{inline:Section kicker text}}</p><h2 id="home-research-title">{{inline:Section header heading}}</h2></div><p>{{inline:Section header text}}</p></header>
+  <div class="research-links">
+    <a href="/research/#open-systems"><span>01</span><p>{{inline:Research links text}}</p><h3>{{inline:Research links heading}}</h3><i aria-hidden="true">→</i></a>
+    <a href="/research/#quantum-matter"><span>02</span><p>{{inline:Research links text 2}}</p><h3>{{inline:Research links heading 2}}</h3><i aria-hidden="true">→</i></a>
+    <a href="/research/#anyons"><span>03</span><p>{{inline:Research links text 3}}</p><h3>{{inline:Research links heading 3}}</h3><i aria-hidden="true">→</i></a>
+    <a href="/research/#rydberg"><span>04</span><p>{{inline:Research links text 4}}</p><h3>{{inline:Research links heading 4}}</h3><i aria-hidden="true">→</i></a>
+  </div>
+  <div class="method-line"><span>{{inline:Method line label}}</span><p>{{inline:Method line text}}</p><p>{{inline:Method line text 2}}</p><p>{{inline:Method line text 3}}</p><p>{{inline:Method line text 4}}</p></div>
+</section>
+
+<section class="home-publications section-wrap" aria-labelledby="selected-work-title">
+  <header class="section-header compact"><div><p class="section-kicker">{{inline:Section kicker text 2}}</p><h2 id="selected-work-title">{{inline:Section header heading 2}}</h2></div><a class="inline-link" href="/publications/">{{inline:Inline link text 2}} <span aria-hidden="true">→</span></a></header>
+  <div class="home-bibliography">
+    <a href="{{url:Publication 1 URL}}" target="_blank" rel="noreferrer"><span>{{inline:Home bibliography label}}</span><h3>{{inline:Home bibliography heading}}</h3><i>{{inline:Home bibliography authors}}</i></a>
+    <a href="{{url:Publication 2 URL}}" target="_blank" rel="noreferrer"><span>{{inline:Home bibliography label 2}}</span><h3>{{inline:Home bibliography heading 2}}</h3><i>{{inline:Home bibliography authors 2}}</i></a>
+    <a href="{{url:Publication 3 URL}}" target="_blank" rel="noreferrer"><span>{{inline:Home bibliography label 3}}</span><h3>{{inline:Home bibliography heading 3}}</h3><i>{{inline:Home bibliography authors 3}}</i></a>
+  </div>
+</section>
+
+<section class="home-community section-wrap" aria-label="Teaching and community">
+  <article><p class="section-kicker">{{inline:Section kicker text 3}}</p><h2>{{inline:Home community heading}}</h2><span>{{inline:Home community label}}</span><p>{{inline:Home community text}}</p><a class="inline-link" href="/teaching/">{{inline:Inline link text 3}} <span aria-hidden="true">→</span></a></article>
+  <article><p class="section-kicker">{{inline:Section kicker text 4}}</p><h2>{{inline:Home community heading 2}}</h2><span>{{inline:Home community label 2}}</span><p>{{inline:Home community text 2}}</p><a class="inline-link" href="/service/">{{inline:Inline link text 4}} <span aria-hidden="true">→</span></a></article>
+</section>
+
+<section class="home-contact">
+  <p class="section-kicker">{{inline:Section kicker text 5}}</p><h2>{{inline:Home contact heading}}</h2><a href="mailto:{{profile:Email}}">{{profile:Email}} <span aria-hidden="true">↗</span></a>
+</section></div>
