@@ -1,0 +1,8 @@
+# Keep branch-based Pages builds limited to the two redirect documents.
+exclude:
+  - content
+  - public
+  - scripts
+  - templates
+  - vendor
+  - dist
